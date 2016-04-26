@@ -1,15 +1,13 @@
-@font-face {
-	font-family: 'ptsansnarrow';
-	src: url('font/ptsansnarrow.woff') format('woff');
-	src: url('font/ptsansnarrow.woff2') format('woff2');
-	src: url('font/ptsansnarrowbold.woff') format('woff');
-	src: url('font/ptsansnarrowbold.woff2') format('woff2');
-	src: url('font/ptsansnarrow.woff') format('woff');
-}
-
 body {
 	font-size: 14px;
-	line-height: 18px;
+	font-weight: normal;
+	line-height: 24px;
 	color: #000000;
-	font-family: 'ptsansnarrow';
+
+}
+h1 {
+	font-size: 30px;
+	line-height: 42px;
+	color: #000000;
+	font-weight: bold;
 }
